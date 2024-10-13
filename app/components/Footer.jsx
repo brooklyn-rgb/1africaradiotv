@@ -43,6 +43,9 @@ const Footer = () => {
             <div className="sm:col-span-2">
                 <h1 className="max-w-lg text-xl font-bold tracking-tight xl:text-2xl dark:text-white text-[#bc9c22]">1AfricaradioTv</h1>
 
+                <div className='flex justify-start py-4'>
+                <iframe className='bg-red-500 bg-opacity-30 rounded p-4 px-4' src="https://radio3.eclipse-streaming.co.za/public/1africaradio/embed?theme=light" frameborder="0" allowtransparency="true" width={250} height={130}></iframe>
+                </div>
                 <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
                     <input id="email" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address"/>
             
@@ -51,6 +54,7 @@ const Footer = () => {
                     </button>
                 </form>
             </div>
+
 
             <div>
                 <p className="font-semibold ">Quick Link</p>
