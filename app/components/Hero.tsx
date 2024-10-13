@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
     
 
-<div className="bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-32 hidden md:block">
+<div className="bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-32 md:block">
   <div className="mt-8 flex">
     <img className="h-44 mx-auto" src="/" alt=""/>
   </div>
