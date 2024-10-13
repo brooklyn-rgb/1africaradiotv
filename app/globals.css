@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #000000;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+    .bg-hero {
+        background-Image: url("/hero.jpg");
+    }
+
+    .triangle-menu {
+        position: relative;
+    }
+
+    .triangle-menu::after,
+    .triangle-menu::before {
+        content: '';
+        height: 0;
+        width: 0;
+        border-style: solid;
+        border-width: 16px;
+        position: absolute;
+    }
+
+    .triangle-menu::after {
+        left: 100%;
+        border-color: transparent transparent transparent #ef4444;
+    }
+
+    .triangle-menu::before {
+        right: 100%;
+        border-color: transparent #ef4444 transparent transparent;
+    }
