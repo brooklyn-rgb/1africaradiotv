@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
     
 
-<div className="bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-32 md:block">
+<div className="flex-auto bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-32 md:block">
   <div className="mt-8 flex">
     <img className="h-44 mx-auto" src="/" alt=""/>
   </div>
@@ -15,13 +15,13 @@ const Hero = () => {
   <nav className="mt-10 flex">
     <ul className="triangle-menu bg-red-500 text-white uppercase font-semibold h-8 inline-flex mx-auto items-center">
       <li className="px-6">
-        <a href=''>
+        <a href='/'>
           1AfricaradioTv
         </a>
       </li>
       <span>/</span>
       <li className="px-6">
-        <a href=''>
+        <a href='/streaming'>
           Live
         </a>
       </li>
@@ -33,8 +33,8 @@ const Hero = () => {
       </li>
       <span>/</span>
       <li className="px-6">
-        <a href=''>
-          News
+        <a href='/streaming'>
+          Streaming
         </a>
       </li>
     </ul>

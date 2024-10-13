@@ -5,6 +5,8 @@ import Team from "./pages/team/page";
 import About2 from "./pages/about2/page";
 import Video from "./pages/video/page";
 import { cookies } from 'next/headers'
+import Hero from "./components/Hero";
+import Card from "./pages/card/page";
 
 
 export default function Home() {
@@ -12,11 +14,12 @@ export default function Home() {
   const theme = cookieStore.get('theme')
   return (
     <div>
-      
+      <Hero />
       <Team />
     <About2 />
     <Video />
     <Bnr />
+    <Card />
     </div>
   );
 }
