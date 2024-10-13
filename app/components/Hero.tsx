@@ -20,7 +20,7 @@ const Hero = () => {
       <span>/</span>
       <li className="px-6">
         <a href=''>
-          Live Radio
+          Live
         </a>
       </li>
       <span>/</span>
