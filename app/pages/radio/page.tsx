@@ -12,7 +12,7 @@ export default function Radio() {
     <Link href={'https://wa.me/27789349311'}>
    
     <div className='flex justify-start py-4'>
-    <iframe className='bg-red-500 bg-opacity-30 rounded p-4 px-4' src="https://radio3.eclipse-streaming.co.za/public/1africaradio/embed?theme=light" frame-border="0" allow-transparency="true" width={250} height={130}></iframe>
+    <iframe className='bg-[url("/music.gif")] bg-no-repeat bg-cover bg-opacity-60 text-white rounded p-4 px-4' src="https://radio3.eclipse-streaming.co.za/public/1africaradio/embed?theme=light" frame-border="0" allow-transparency="true" width={250} height={130}></iframe>
   </div>
       </Link>
     </div>
