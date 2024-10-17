@@ -54,3 +54,12 @@ body {
         right: 100%;
         border-color: transparent #ef4444 transparent transparent;
     }
+
+    .bg-image {
+      background:url(https://artisanpizzakitchen.com/wp-content/uploads/2018/05/373_photo3.jpg);
+      background-size:cover;
+      background-repeat:no-repeat;
+    }
+
+    body {background:white !important;}
+  
