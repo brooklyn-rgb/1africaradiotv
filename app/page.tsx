@@ -6,7 +6,6 @@ import About2 from "./pages/about2/page";
 import Video from "./pages/video/page";
 import { cookies } from 'next/headers'
 import Hero from "./components/Hero";
-import Card from "./pages/card/page";
 import Team2 from "./pages/team2/page";
 
 
@@ -21,7 +20,7 @@ export default function Home() {
     <Video />
     <Team2 />
     <Bnr />
-    <Card />
+    
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Chat from "./pages/chat/page";
 import Hero from "./components/Hero";
 import Radio from "./pages/radio/page";
 import { Navbar } from "./components/Navbar"
+import Card from "./pages/card/page";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,6 +40,7 @@ export default function RootLayout({
       >
         <Nav />        
         {children}
+        <Card />
         <Footer />
         <Chat />
         <Radio />

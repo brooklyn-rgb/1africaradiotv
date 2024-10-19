@@ -14,15 +14,10 @@ const Hero = () => {
   </div>
   <nav className="mt-10 flex">
     <ul className="triangle-menu bg-red-500 text-white uppercase font-semibold h-8 inline-flex mx-auto items-center">
-      <li className="px-6">
-        <a href='/'>
-          1AfricaradioTv
-        </a>
-      </li>
-      <span>/</span>
+      
       <li className="px-6">
         <a href='/streaming'>
-          Live
+          Live Show
         </a>
       </li>
       <span>/</span>
