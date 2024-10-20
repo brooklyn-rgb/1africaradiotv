@@ -62,7 +62,7 @@ const Footer = () => {
 
                 <div className="flex flex-col items-start mt-5 space-y-2">
                     <a href="/" className="transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
-                    <a href="/pages/show" className="transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Shows</a>
+                    <a href="/pages/team3" className="transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our Team</a>
                     <a href="/pages/foundation" className="transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Foundation</a>
                 </div>
             </div>

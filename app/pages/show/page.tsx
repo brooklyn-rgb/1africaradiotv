@@ -227,7 +227,7 @@ export default function Show() {
                   <a className="flex-no-shrink text-xs  font-medium tracking-wider  text-gray-400 hover:text-green-400 transition ease-in duration-300 mr-2"><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                     </svg></a>
-                  <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-green-100 bg-green-400 rounded-full ml-2">99</span>
+                  <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-green-100 bg-green-400 rounded-full ml-2">99.1</span>
                 </div>
               </div>
             </div>
@@ -296,7 +296,7 @@ export default function Show() {
         </div>
         <div className="flex flex-col p-4 bg-gray-800 border-gray-800 shadow-md hover:shodow-lg rounded-2xl">
           <div className="flex">
-            <img src="/onn.jpg" alt="Just a flower" className=" w-16  object-fit  h-16 rounded-2xl"/>
+            <img src="/onn.jpg" alt="on air" className=" w-16  object-fit  h-16 rounded-2xl"/>
             <div className="flex flex-col justify-center w-full px-2 py-1">
               <div className="flex justify-between items-center ">
                 <div className="flex flex-col">

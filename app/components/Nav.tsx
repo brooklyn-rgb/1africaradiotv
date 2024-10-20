@@ -3,7 +3,7 @@ import { Bars3Icon, PhoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Radio Shows', href: '/pages/show', current: false },
+  { name: 'Live Shows', href: '/pages/shows', current: false },
   { name: 'Media', href: '/pages/media', current: false },
   { name: 'Foundation', href: '/pages/foundation', current: false },
   { name: 'Team', href: '/pages/team3', current: false },
@@ -65,7 +65,7 @@ export default function Nav() {
             >
               <span className="absolute -inset-1.5" />
               <span className="sr-only">View notifications</span>
-              <a href='/pages/contact'><PhoneIcon aria-hidden="true" className="h-6 w-6" /></a>
+              <a href='https://wa.me/27789349311?text=Called%20Chosen%20and%20Appointed%20BornAgain%20for%20Faith%20Mission'><PhoneIcon aria-hidden="true" className="h-6 w-6" /></a>
             </button>
 
             {/* Profile dropdown */}
@@ -86,8 +86,8 @@ export default function Nav() {
                 className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
               >
                 <MenuItem>
-                  <a href="/pages/team2" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                    Our Team
+                  <a href="/pages/team3" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
+                    Our Staff
                   </a>
                 </MenuItem>
                 <MenuItem>
