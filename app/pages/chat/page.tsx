@@ -9,7 +9,7 @@ export default function Chat() {
                   fixed bottom-0 right-0 right-5 rounded-lg
                   mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-10 xl:mb-10">
     <div className="p-2 rounded-full bg-[#16a34a]">
-    <Link href={'https://wa.me/27789349311'}>
+      <a href='https://wa.me/27789349311'>
    
     <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="var(--color-success)"></circle><path d="M11.375 52.625L14.2745 42.0323C12.4853 38.9317 11.5452 35.4169 11.5469
 31.8127C11.552 20.5445 20.7216 11.375 31.988 11.375C37.4553 11.3767 42.5875 13.5062 46.4478 17.37C50.3064
@@ -27,7 +27,7 @@ export default function Chat() {
  40.7966 34.5816 41.1111 35.3223 41.3466C36.5461 41.735 37.6598 41.68 38.5398 41.5494C39.5212 41.4033 41.5614 40.3136
  41.9877 39.1208C42.4139 37.9262 42.4139 36.9036 42.285 36.6905Z" fill="white"></path></svg>
 
-      </Link>
+</a>  
     </div>
 
   </button>

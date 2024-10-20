@@ -4,8 +4,8 @@ export default function Shows() {
   return (
     <div>
        
-        <section className="bg-[url('https://wallpapercave.com/wp/wp6689710.jpg')] bg-cover bg-center bg-opacity-60 dark:bg-[#A67C00]">
-        <div className="relative bg-pink-900 h-full md:h-full w-full bg-opacity-50 rounded-tr-lg rounded-br-lg">
+        <section className="bg-[url('https://wallpapercave.com/wp/wp6689710.jpg')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00]">
+        <div className="relative bg-pink-900 h-full md:h-full w-full bg-opacity-30 rounded-tr-lg rounded-br-lg">
                       
     <div className="container mx-auto px-6 py-10">
         <div className="text-center">

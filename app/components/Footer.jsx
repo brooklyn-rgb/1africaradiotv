@@ -36,8 +36,12 @@ const Footer = () => {
     };
   return (
     <div>
-     
-<footer className="bg-black py-8 text-white dark:bg-gray-900 border-t border-t-[#093129]">
+     <div className="bg-black py-4 px-8">
+     <h1 className="flex auto text-white font-normal space-x-8 text-xl">
+     1AfricaradioTv: Live stream  |  Line-Up  | Podcast  |  Live Shows
+     </h1>
+     </div>
+<footer className="bg-black py-8 text-white dark:bg-gray-900 border-t border-t-white">
     <div className="container px-6 py-12 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
             <div className="sm:col-span-2">
@@ -87,9 +91,9 @@ const Footer = () => {
             <p className="mt-2 md:mt-0">All rights reserved &copy; 2024. | Dev By Macsoft</p>
             <div className="flex mt-4 mb-2 -mx-2 md:mt-0 md:mb-0">
             
-            <a href="https://wa.me/27789349311?text=Called%20Chosen%20and%20Appointed%20BornAgain%20for%20Faith%20Mission"
-                    className="mx-2 text-gray-100 hover:text-gray-400">
-                    
+           
+                 
+                <a href='https://wa.me/27789349311'>     
                 <img src="/social/whatsapp.svg" alt="WhatsApp" className="w-10 h-10"/>
 
                 </a>
@@ -117,6 +121,7 @@ const Footer = () => {
             </div>
         </div>
         </div>
+        
    
 
     </div>

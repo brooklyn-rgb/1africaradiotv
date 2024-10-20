@@ -2,9 +2,13 @@ import React from 'react'
 
 export default function Card() {
   return (
+    
+    
     <div className='bg-[url("/team/zeal.jpeg")] bg-no-repeat bg-cover bg-opacity-60'>
-
-<div tab-Index="0" className="focus:outline-none">
+<div className='flex justify-start bg-black sm:shrink-0 text-white py-4 px-8 text-xl'>
+    Whatsapp Number:  <span className='font-bold px-4'> +27 (0) 78 934 9311</span> <span className='font-normal px-4'>Studio Line:  <span className='font-normal px-6'> +27 (011) 433 0211 </span></span>
+</div>
+<div tab-Index="0" className="focus:outline-none border-t border-t-white">
           
             <div className="mx-auto container py-8">
                 <div className="flex flex-wrap items-center lg:justify-between justify-center">
@@ -167,5 +171,6 @@ export default function Card() {
           </div>
          
     </div>
+    
   )
 }
