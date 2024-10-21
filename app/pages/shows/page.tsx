@@ -4,12 +4,12 @@ export default function Shows() {
   return (
     <div>
        
-        <section className="bg-[url('https://wallpapercave.com/wp/wp6689710.jpg')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00]">
-        <div className="relative bg-pink-900 h-full md:h-full w-full bg-opacity-30 rounded-tr-lg rounded-br-lg">
+        <section className="bg-[url('/team2/bg.gif')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00]">
+        <div className="relative h-full md:h-full w-full bg-opacity-60 rounded-tr-lg rounded-br-lg">
                       
     <div className="container mx-auto px-6 py-10">
         <div className="text-center">
-        <h1 className="text-3xl font-semibold capitalize text-red-500 dark:text-white lg:text-4xl">LIVE SHOWS</h1>
+        <h1 className="text-3xl font-semibold capitalize text-red-500 dark:text-white lg:text-4xl">Radio Live Shows</h1>
 
         <p className="mx-auto mt-4 max-w-lg text-white underline">Tune-In Now</p>
         </div>

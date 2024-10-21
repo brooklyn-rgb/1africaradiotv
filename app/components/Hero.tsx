@@ -5,8 +5,8 @@ const Hero = () => {
     <div>
     
 
-<div className="flex-auto bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-32 md:block">
-  <div className="mt-8 flex">
+<div className="flex-auto bg-hero bg-no-repeat bg-cover bg-top pt-0.5 pb-8 md:block">
+  <div className="mt-4 flex">
     <img className="h-44 mx-auto" src="/" alt=""/>
   </div>
   <div className='flex justify-end py-4'>
