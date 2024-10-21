@@ -8,7 +8,7 @@ export default function Team2() {
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="text-center pb-12">            
             <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
-                Executive            
+                Staff Members            
             </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -17,7 +17,7 @@ export default function Team2() {
                     <img className="object-center object-cover rounded-full h-36 w-36" src="/team/ceo.avif" alt="photo"/>
                 </div>
                 <div className="text-center">
-                    <p className="text-xl text-white font-bold mb-2">Mike Osarfo</p>
+                    <p className="text-xl text-white font-bold mb-2">Michael Osei Osarfo</p>
                     <p className="text-base text-gray-400 font-normal">CEO</p>
                 </div>
             </div>

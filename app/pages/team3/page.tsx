@@ -8,7 +8,7 @@ export default function Team3() {
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="text-center pb-12">            
             <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
-                Our Team           
+                Our Staff           
             </h1>
         </div>
         <div className=" align-top grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 top-0 ">
@@ -17,7 +17,7 @@ export default function Team3() {
                     <img className="object-center object-cover rounded-full h-36 w-36" src="/team/ceo.avif" alt="photo"/>
                 </div>
                 <div className="text-center ">
-                    <p className="text-xl text-white font-bold mb-2">Mike Osarfo</p>
+                    <p className="text-xl text-white font-bold mb-2">Michael Osei Osarfo</p>
                     <p className="text-base text-gray-400 font-normal">CEO</p>
                     <p className="text-base text-gray-400 font-normal">
                     The chief executive officer of is the epitome of the modern African child – fearless, passionate, and well-driven . Having trained as a fashion designer in England, this mogul joined the world of television in 2013, producing a host of movies and television shows before venturing into the world of radio /television as a founding member and head of the company

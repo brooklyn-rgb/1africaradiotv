@@ -4,7 +4,7 @@ export default function Shows() {
   return (
     <div>
        
-        <section className="bg-[url('/team2/bg.gif')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00]">
+        <section className="bg-[url('/team2/bg.gif')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00] px-8">
         <div className="relative h-full md:h-full w-full bg-opacity-60 rounded-tr-lg rounded-br-lg">
                       
     <div className="container mx-auto px-6 py-10">
@@ -12,6 +12,7 @@ export default function Shows() {
         <h1 className="text-3xl font-semibold capitalize text-red-500 dark:text-white lg:text-4xl">Radio Live Shows</h1>
 
         <p className="mx-auto mt-4 max-w-lg text-white underline">Tune-In Now</p>
+        </div>
         </div>
 
 
@@ -137,21 +138,19 @@ Time: Fridays 1pm-3pm  </p>
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
 
                 <div className="mx-4">
-                <h1 className="text-sm text-gray-700 dark:text-gray-200">Mr Rabah</h1>
+                <h1 className="text-sm text-gray-700 dark:text-gray-200">Sports</h1>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
                 </div>
             </div>
             </div>
 
-            <h1 className="mt-6 text-xl font-semibold text-white dark:text-white">Real Africa</h1>
+            <h1 className="mt-6 text-xl font-semibold text-white dark:text-white">Sports Show</h1>
 
             <hr className="my-6 w-32 text-blue-500" />
 
-            <p className="text-sm text-white dark:text-gray-400">Real Africa
+            <p className="text-sm text-white dark:text-gray-400">1Africa Radio TV Sports 
 
-Host: Mr Rabah
-
-Time: 11am-12pm</p>
+Time: 12:30pm - 1pm</p>
 
             <a href="#" className="mt-4 inline-block text-red-500 underline hover:text-blue-400">Tune-in</a>
         </div>
@@ -221,7 +220,7 @@ Time: 3pm - 5pm </p>
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
 
                 <div className="mx-4">
-                <h1 className="text-sm text-gray-700 dark:text-gray-200">Chealex Mpanza, the Great </h1>
+                <h1 className="text-sm text-gray-700 dark:text-gray-200">1AfricaradioTv </h1>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
                 </div>
             </div>
@@ -234,7 +233,7 @@ Time: 3pm - 5pm </p>
             <p className="text-sm text-white dark:text-gray-400">
             The Great Top 30 
 
-Host: Chealex Mpanza, the Great 
+Host: 1Africaradiotv, the Great 
 
 Time: 12pm - 3pm
             </p>
@@ -270,96 +269,10 @@ Time: 12pm - 12:30pm
         </div>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
-        <div>
+        
 
 
-
-
-            <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/logo.jpg" alt="" />
-
-            <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
-
-                <div className="mx-4">
-                <h1 className="text-sm text-gray-700 dark:text-gray-200">Sports</h1>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
-                </div>
-            </div>
-            </div>
-
-            <h1 className="mt-6 text-xl font-semibold text-white dark:text-white">Sports Show</h1>
-
-            <hr className="my-6 w-32 text-blue-500" />
-
-            <p className="text-sm text-white dark:text-gray-400">1Africa Radio TV Sports 
-
-Time: 12:30pm - 1pm</p>
-
-            <a href="#" className="mt-4 inline-block text-red-500 underline hover:text-blue-400">Tune-in</a>
-        </div>
-
-        <div>
-            <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/logo.jpg" alt="" />
-
-            <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
-
-                <div className="mx-4">
-                <h1 className="text-sm text-gray-700 dark:text-gray-200">Host Immza</h1>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
-                </div>
-            </div>
-            </div>
-
-            <h1 className="mt-6 text-xl font-semibold text-white dark:text-white">The Midday African Muse</h1>
-
-            <hr className="my-6 w-32 text-blue-500" />
-
-            <p className="text-sm text-white dark:text-gray-400">
-            The Midday African Muse
-
-Host: Immza
-
-Time: Mon-Thu 1pm-3pm 
-            </p>
-
-            <a href="#" className="mt-4 inline-block text-red-500 underline hover:text-blue-400">Tune-in</a>
-        </div>
-
-        <div>
-            <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/logo.jpg" alt="" />
-
-            <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
-
-                <div className="mx-4">
-                <h1 className="text-sm text-gray-700 dark:text-gray-200">Jonny Deep</h1>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
-                </div>
-            </div>
-            </div>
-
-            <h1 className="mt-6 text-xl font-semibold text-white dark:text-white">After Dark Mixes</h1>
-
-            <hr className="my-6 w-32 text-blue-500" />
-
-            <p className="text-sm text-white dark:text-gray-400">
-            After Dark Mixes
-
-Host: Jonny Deep 
-
-Time: Mon-Thu 6pm-7pm 
-            </p>
-
-            <a href="#" className="mt-4 inline-block text-red-500 underline hover:text-blue-400">Tune-in</a>
-        </div>
-        </div>
-
-
+     
 
 
 
@@ -449,7 +362,9 @@ Time: 3pm - 6pm </p>
 
 
     </div>
-    </div>
+    
+    
+    
     </section>
     
     </div>
