@@ -87,7 +87,7 @@ export default function Nav() {
               >
                 <MenuItem>
                   <a href="/pages/team3" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                    Our Staff
+                    Our Team
                   </a>
                 </MenuItem>
                 <MenuItem>

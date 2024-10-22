@@ -37,7 +37,7 @@ export default function Video() {
           <iframe 
   width="350" 
   height="315" 
-  src="https://www.youtube.com/embed/IXf_DcztxU" 
+  src="https://www.youtube.com/embed/fIXf_DcztxU" 
   title="YouTube video player" 
   frame-border="0" 
   allow="accelerometer; 

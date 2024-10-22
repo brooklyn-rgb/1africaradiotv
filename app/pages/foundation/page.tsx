@@ -164,7 +164,40 @@ export default function Foundation() {
 
         </div>
 
-                      
+        
+
+        
+<div className="bg-pink-900 p-28">
+    <div className='md:flex'>
+        <div className="md:w-6/12 text-white bg-pink-800 p-8 sm:rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg rounded-tl-lg flex items-center">
+            <div>
+                <h1 className="text-4xl mb-5 font-bold">Donate <span className="text-pink-300">Now</span> is as simple as one clink</h1>
+                <h2 className="text-sm mb-12 font-bold">Bank Name: FNB <br /> Account Name: 1Africa radio tv <br /> Account no: 62933389498 <br /> Branch code : 256505 <br /> Branch : Malville Switch code:  <br /> FIRNZAJJ  </h2>
+                <div className="flex">
+                    <div className="mr-8">
+                        <p className="text-2xl font-bold">$10+</p>
+                        <p className="text-sm">Food Security</p>
+                    </div>
+                    <div className="mr-8">
+                        <p className="text-2xl font-bold">$20+</p>
+                        <p className="text-sm">Feed a Child</p>
+                    </div>
+                    <div>
+                        <p className="text-2xl font-bold">$50+</p>
+                        <p className="text-sm">Blankets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="md:w-6/12 relative">
+            <div className="bg-pink-500 w-full h-full opacity-60 absolute sm:rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg"></div>
+            <img className="h-full w-full object-cover sm:rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg" src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=550&q=80" alt="Banner Desktop"/>
+        </div>
+    </div>
+</div>
+
+
+
        
     </div>
 </div>
