@@ -40,7 +40,7 @@ export default function Time() {
   picture-in-picture; 
   web-share" allow-fullscreen></iframe>
           </div>
-          <h3 className="text-lg font-semibold mt-2">Street Quiz With Clifford EP1<span className="text-[#a2790d]"> Why do women cheat?</span></h3>
+          <h3 className="text-lg font-semibold mt-2">Street Quiz With Clifford EP1<span className="text-[#a2790d]"> <br /> Why do women cheat?</span></h3>
         </div>
         <div>
           <div className="bg-cover bg-no-repeat h-44">
@@ -58,7 +58,7 @@ export default function Time() {
   picture-in-picture; 
   web-share" allow-fullscreen></iframe>
           </div>
-          <h3 className="text-lg font-semibold mt-2">Saturdays (6 - 9AM) <span className="text-[#a2790d]">Host: Qhude Manikiniki <br /> Time: Saturdays 6AM-9AM </span></h3>
+          <h3 className="text-lg font-semibold mt-2">Host: Qhude Manikiniki  <span className="text-[#a2790d]"><br /> Time: Saturdays 6AM-9AM </span></h3>
         </div>
         <div>
           <div className=" bg-cover bg-no-repeat h-44">
