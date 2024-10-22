@@ -172,7 +172,7 @@ export default function Foundation() {
         <div className="md:w-6/12 text-white bg-pink-800 p-8 sm:rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg rounded-tl-lg flex items-center">
             <div>
                 <h1 className="text-4xl mb-5 font-bold">Donate <span className="text-pink-300">Now</span> is as simple as one clink</h1>
-                <h2 className="text-sm mb-12 font-bold">Bank Name: FNB <br /> Account Name: 1Africa radio tv <br /> Account no: 62933389498 <br /> Branch code : 256505 <br /> Branch : Malville Switch <br /> code: FIRNZAJJ  </h2>
+                <h2 className="text-xl mb-12 font-bold">Bank Name: FNB <br /> Account Name: 1Africa radio tv <br /> Account no: 62933389498 <br /> Branch code : 256505 <br /> Branch : Malville Switch <br /> code: FIRNZAJJ  </h2>
                 <div className="flex">
                     <div className="mr-8">
                         <p className="text-2xl font-bold">$10+</p>

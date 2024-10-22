@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="sm:col-span-2">
                 <h1 className="max-w-lg text-xl font-bold tracking-tight xl:text-2xl dark:text-white text-[#bc9c22]">1AfricaradioTv</h1> 
                 <br />
-                <h2 className="font-bold text-[#a67c00] text-xl"> Location:<br /> <span className="text-white"> 75 3rd AveMelville, Johannesburg, 2109 </span> </h2>
+                <h2 className="font-bold text-[#a67c00] text-xl"> Location:<br /> <span className="text-white"> 75 3rd AveMelville, Johannesburg, 2092 </span> </h2>
                 <br />
                 <h3 className="font-bold text-[#a67c00] text-xl"> Studio Line: <br /> <span className="text-white">+27 (011) 433 0211.</span></h3>
                                
@@ -98,22 +98,28 @@ const Footer = () => {
 
                 </a>
                 
-                <a href="https://www.facebook.com/profile.php?id=100086667417275" className="mx-2 text-gray-100 hover:text-gray-400">
+                <a href='https://www.facebook.com/profile.php?id=100086667417275' className="mx-2 text-gray-100 hover:text-gray-400">
                 
                 <img src="/social/fb.svg" alt="facebook" className="w-10 h-10"/>
 
                 </a>
-                <a href="https://x.com/1africaradiotv" className="mx-2 text-gray-100 hover:text-gray-400">
+
+                <a href='https://www.tiktok.com/search?q=1africaradiotv&t=1729608757366' className="mx-2 text-gray-100 hover:text-gray-400">
+                
+                <img src="/social/tiktok.svg" alt="tiktok" className="w-10 h-10"/>
+
+                </a>
+                <a href='https://x.com/1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">
                 
                 <img src="/social/twitter.svg" alt="x" className="w-10 h-10"/>
 
                 </a>
-                <a href="https://www.youtube.com/@1africaradiotv" className="mx-2 text-gray-100 hover:text-gray-400">
+                <a href='https://www.youtube.com/@1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">
                 
                 <img src="/social/youtube.svg" alt="youtube" className="w-10 h-10"/>
 
                 </a>                
-                <a href="https://www.instagram.com/1africaradio_tv/" className="mx-2 text-gray-100 hover:text-gray-400">
+                <a href='https://www.instagram.com/1africaradio_tv' className="mx-2 text-gray-100 hover:text-gray-400">
                 
                 <img src="/social/instagram.webp" alt="instagram" className="w-10 h-10"/>
 
