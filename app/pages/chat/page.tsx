@@ -5,7 +5,7 @@ export default function Chat() {
   return (
 
 <div className="relative">
-  <Link href={'https://wa.me/27789349311'}>
+  <Link href="https://wa.me/27789349311">
   <button className="z-20 text-white flex flex-col shrink-0 grow-0 justify-around 
                   fixed bottom-0 right-0 right-5 rounded-lg
                   mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-10 xl:mb-10">
