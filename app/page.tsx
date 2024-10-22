@@ -7,6 +7,8 @@ import Video from "./pages/video/page";
 import { cookies } from 'next/headers'
 import Hero from "./components/Hero";
 import Team2 from "./pages/team2/page";
+import Time from "./pages/time/page";
+import Time2 from "./pages/time2/page";
 
 
 export default function Home() {
@@ -17,8 +19,10 @@ export default function Home() {
       <Hero />
       <Team />
     <About2 />
+    <Time />
     <Video />
     <Team2 />
+    <Time2 />
     <Bnr />
     
     </div>

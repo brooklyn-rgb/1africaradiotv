@@ -6,7 +6,7 @@ const navigation = [
   { name: 'Live Shows', href: '/pages/shows', current: false },
   { name: 'Media', href: '/pages/media', current: false },
   { name: 'Foundation', href: '/pages/foundation', current: false },
-  { name: 'Staff', href: '/pages/team3', current: false },
+  { name: 'Team', href: '/pages/team3', current: false },
   { name: 'About', href: '/pages/about', current: false },
   { name: 'Contact', href: '/pages/contact', current: false },
 ]

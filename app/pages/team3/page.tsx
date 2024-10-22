@@ -8,7 +8,7 @@ export default function Team3() {
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="text-center pb-12">            
             <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
-                Our Staff           
+                Executive Team           
             </h1>
         </div>
         <div className=" align-top grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 top-0 ">
@@ -114,6 +114,10 @@ She is a Minister of Women's Social and Economic Development at State of the Afr
 
         </div>
     </section>
+
+    <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white text-center">
+                Staff        
+            </h1>
 
     <section className="max-w-6xl mx-auto px-4 sm:px-4 lg:px-4 py-4">
         <div className="text-center pb-12">            

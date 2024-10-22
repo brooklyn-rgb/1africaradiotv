@@ -4,7 +4,7 @@ export default function Team() {
   return (
    <div className='bg-black py-16 text-white p-4'>
       <section>
-      <h1 className="text-3xl font-bold mb-10">Pan African Radio Station</h1>
+      <h1 className="text-3xl font-bold mb-10">| Pan African Radio Station</h1>
       <div className="grid sm:grid-cols-4 gap-4 grid-cols-1">
         <div>
           <div className="bg-[url('/images/mandela.jpeg')] bg-cover bg-no-repeat h-44"></div>

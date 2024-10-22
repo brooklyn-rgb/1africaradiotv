@@ -1,9 +1,12 @@
 import React from 'react'
+import Time from '../time/page'
+import Time2 from '../time2/page'
 
 export default function Shows() {
   return (
     <div>
-       
+       <Time />
+       <Time2 />
         <section className="bg-[url('/team2/bg.gif')] bg-cover bg-center bg-opacity-30 dark:bg-[#A67C00] px-8">
         <div className="relative h-full md:h-full w-full bg-opacity-60 rounded-tr-lg rounded-br-lg">
                       
