@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import Link from "next/link";
 
 const Footer = () => {
     const form = useRef();
@@ -93,37 +93,30 @@ const Footer = () => {
             
            
                  
-                <a href='https://wa.me/27789349311'>     
+                <Link href='https://wa.me/27789349311'>     
                 <img src="/social/whatsapp.svg" alt="WhatsApp" className="w-10 h-10"/>
-
-                </a>
+                </Link>
                 
-                <a href='https://www.facebook.com/profile.php?id=100086667417275' className="mx-2 text-gray-100 hover:text-gray-400">
-                
+                <Link href='https://www.facebook.com/profile.php?id=100086667417275' className="mx-2 text-gray-100 hover:text-gray-400">
                 <img src="/social/fb.svg" alt="facebook" className="w-10 h-10"/>
+                </Link>
 
-                </a>
-
-                <a href='https://www.tiktok.com/search?q=1africaradiotv&t=1729608757366' className="mx-2 text-gray-100 hover:text-gray-400">
-                
+                <Link href='https://www.tiktok.com/search?q=1africaradiotv&t=1729608757366' className="mx-2 text-gray-100 hover:text-gray-400">               
                 <img src="/social/tiktok.svg" alt="tiktok" className="w-10 h-10"/>
+                </Link>
 
-                </a>
-                <a href='https://x.com/1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">
-                
+                <Link href='https://x.com/1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">               
                 <img src="/social/twitter.svg" alt="x" className="w-10 h-10"/>
+                </Link>
 
-                </a>
-                <a href='https://www.youtube.com/@1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">
-                
+                <Link href='https://www.youtube.com/@1africaradiotv' className="mx-2 text-gray-100 hover:text-gray-400">               
                 <img src="/social/youtube.svg" alt="youtube" className="w-10 h-10"/>
+                </Link> 
 
-                </a>                
-                <a href='https://www.instagram.com/1africaradio_tv' className="mx-2 text-gray-100 hover:text-gray-400">
-                
+                <Link href='https://www.instagram.com/1africaradio_tv' className="mx-2 text-gray-100 hover:text-gray-400">             
                 <img src="/social/instagram.webp" alt="instagram" className="w-10 h-10"/>
+                </Link>
 
-                </a>
             </div>
         </div>
         </div>
