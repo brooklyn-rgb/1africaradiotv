@@ -23,11 +23,23 @@ export default function Shows() {
         <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/team2/kagiso.jpeg" alt="" />
-
+            <iframe 
+  width="400" 
+  height="400" 
+  src="https://www.youtube.com/embed/0kgflwDeh2c" 
+  title="YouTube video player" 
+  frame-border="0" 
+  allow="accelerometer; 
+  autoplay; 
+  clipboard-write; 
+  encrypted-media; 
+  gyroscope; 
+  picture-in-picture; 
+  web-share" allow-fullscreen></iframe>
+          
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/kagiso.jpeg" alt="" />
-
+     
+            <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/kagiso.jpeg" alt="" />
                 <div className="mx-4">
                 <h1 className="text-sm text-gray-700 dark:text-gray-200">Kagiso Rakosa</h1>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Live Show</p>
@@ -50,8 +62,19 @@ Time: 6am - 9am</p>
 
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/team2/vv.jpeg" alt="" />
-
+            <iframe 
+  width="400" 
+  height="400" 
+  src="https://www.youtube.com/embed/9Ga8DN6DGy4" 
+  title="YouTube video player" 
+  frame-border="0" 
+  allow="accelerometer; 
+  autoplay; 
+  clipboard-write; 
+  encrypted-media; 
+  gyroscope; 
+  picture-in-picture; 
+  web-share" allow-fullscreen></iframe>
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/vv.jpeg" alt="" />
 
@@ -77,8 +100,20 @@ Time: 3pm-6pm </p>
 
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/team2/bobo.jpeg" alt="" />
-
+            <iframe 
+   width="400" 
+   height="400"  
+  src="https://www.youtube.com/embed/LeEe6vKqtDw" 
+  title="YouTube video player" 
+  frame-border="0" 
+  allow="accelerometer; 
+  autoplay; 
+  clipboard-write; 
+  encrypted-media; 
+  gyroscope; 
+  picture-in-picture; 
+  web-share" allow-fullscreen></iframe>
+         
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/bobo.jpeg" alt="" />
 
@@ -108,8 +143,19 @@ Time: Fridays 9am-11am  </p>
         <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/team2/sco.jpeg" alt="" />
-
+            <iframe 
+  width="400" 
+  height="400" 
+  src="https://www.youtube.com/embed/33pqJtKV_Ko" 
+  title="YouTube video player" 
+  frame-border="0" 
+  allow="accelerometer; 
+  autoplay; 
+  clipboard-write; 
+  encrypted-media; 
+  gyroscope; 
+  picture-in-picture; 
+  web-share" allow-fullscreen></iframe>
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/sco.jpeg" alt="" />
 
@@ -135,7 +181,7 @@ Time: Fridays 1pm-3pm  </p>
 
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/logo.jpg" alt="" />
+            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/logo.jpg" alt=""/>
 
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/logo.jpg" alt="" />
@@ -160,8 +206,19 @@ Time: 12:30pm - 1pm</p>
 
         <div>
             <div className="relative">
-            <img className="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="/team2/mbali.jpeg" alt="" />
-
+            <iframe 
+   width="400" 
+   height="400" 
+  src="https://www.youtube.com/embed/roJe2QhziA4" 
+  title="YouTube video player" 
+  frame-border="0" 
+  allow="accelerometer; 
+  autoplay; 
+  clipboard-write; 
+  encrypted-media; 
+  gyroscope; 
+  picture-in-picture; 
+  web-share" allow-fullscreen></iframe>
             <div className="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
                 <img className="h-10 w-10 rounded-full object-cover object-center" src="/team2/mbali.jpeg" alt="" />
 
