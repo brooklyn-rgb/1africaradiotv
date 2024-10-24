@@ -12,8 +12,8 @@ const Footer = () => {
       e.preventDefault();
   
       emailjs
-        .sendForm('service_37kg5ak', 'template_zx7h50p', form.current, {
-          publicKey: 'SOP-AaGhqLcOmu2wm',
+      .sendForm('service_gxh60rq', 'template_8l44bwg', form.current, {
+        publicKey: 'eylwBqCVMhgEbttld',
         })
         .then(
           () => {
@@ -52,11 +52,10 @@ const Footer = () => {
                 <h3 className="font-bold text-[#a67c00] text-xl"> Studio Line: <br /> <span className="text-white">+27 (011) 433 0211.</span></h3>
                                
                 <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
-                    <input id="email" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address"/>
+                    <input type="text" name="email" className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address"/>
             
-                    <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-[#a2790d] rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
-                        Subscribe
-                    </button>
+                    <input btn className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-[#a2790d] rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80" type="submit" value="Send" />
+                    
                 </form>
             </div>
 
