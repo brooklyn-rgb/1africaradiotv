@@ -101,6 +101,11 @@ export default function Nav() {
                   </a>
                 </MenuItem>
                 <MenuItem>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
+                    Sports
+                  </a>
+                </MenuItem>
+                <MenuItem>
                   <a href="/pages/contact" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
                     Contact
                   </a>
