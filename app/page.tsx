@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Team2 from "./pages/team2/page";
 import Time from "./pages/time/page";
 import Time2 from "./pages/time2/page";
+import PromotionalBannerCarousel from "./pages/banner/promotional-banner-carousel";
 
 
 export default function Home() {
@@ -17,6 +18,14 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <div className='bg-gray-900'>
+                <img src='/banner.webp'/>
+                </div>
+      <div className="py-10 container">
+        <div className="overflow-hidden">
+          <PromotionalBannerCarousel />
+        </div>
+      </div>
       <Team />
     <About2 />
     <Time />

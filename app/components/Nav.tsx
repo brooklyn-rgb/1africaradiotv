@@ -65,7 +65,6 @@ export default function Nav() {
             >
               <span className="absolute -inset-1.5" />
               <span className="sr-only">View notifications</span>
-              <a href='https://wa.me/27789349311?text=Called%20Chosen%20and%20Appointed%20BornAgain%20for%20Faith%20Mission'><PhoneIcon aria-hidden="true" className="h-6 w-6" /></a>
             </button>
 
             {/* Profile dropdown */}
