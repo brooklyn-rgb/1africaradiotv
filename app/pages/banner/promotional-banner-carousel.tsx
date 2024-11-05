@@ -72,7 +72,7 @@ const PromotionalBannerCarousel = () => {
             
                 <div
                   key={item.id}
-                  className="keen-slider__slide relative w-[300px] cursor-pointer items-center rounded border border-gray-200 bg-gray-900 hover:bg-slate-400 p-5 shadow-md space-x-4  h-[180px]  overflow-hidden flex flex-col justify-center   "
+                  className="keen-slider__slide relative w-[300px] cursor-pointer items-center rounded border border-gray-200 bg-gray-900 hover:bg-slate-400 p-5 shadow-md space-x-4  h-[180px] overflow-hidden flex flex-col justify-center px-8"
                 >
                   <div className="w-[40%]"></div>
                   <div className="absolute left-3 top-[1/2] flex flex-col flex-1  w-[80]  z-20">

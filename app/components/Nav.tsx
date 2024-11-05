@@ -1,10 +1,12 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, PhoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Live Shows', href: '/pages/shows', current: false },
   { name: 'Media', href: '/pages/media', current: false },
+  { name: 'Podcast', href: 'https://1africa-podcast.vercel.app/', current: false },
   { name: 'Foundation', href: '/pages/foundation', current: false },
   { name: 'Team', href: '/pages/team3', current: false },
   { name: 'About', href: '/pages/about', current: false },
@@ -18,6 +20,7 @@ function classNames(...classes: string[]) {
 export default function Nav() {
   return (
     <Disclosure as="nav" className="bg-black">
+
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -29,7 +32,7 @@ export default function Nav() {
               <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 items-start px-8 justify-start sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
               
               <img
@@ -65,6 +68,8 @@ export default function Nav() {
             >
               <span className="absolute -inset-1.5" />
               <span className="sr-only">View notifications</span>
+              <a href='https://wa.me/27789349311?text=Pan%20African%20Radio%20Tv%20Broadcasting%20station%20of%20SouthAfrica'><PhoneIcon aria-hidden="true" className="h-6 w-6 text-white font-extrabold" />+27(0)11 433 0211</a>
+             
             </button>
 
             {/* Profile dropdown */}
@@ -75,7 +80,7 @@ export default function Nav() {
                   <span className="sr-only">Open user menu</span>
                   <img
                     alt=""
-                    src="/logo.jpg"
+                    src="/flag.webp"
                     className="h-8 w-8 rounded-full"
                   />
                 </MenuButton>
@@ -95,7 +100,7 @@ export default function Nav() {
                   </a>
                 </MenuItem>
                 <MenuItem>
-                  <a href="/pages/show" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
+                  <a href="https://1africa-podcast.vercel.app/" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
                     Podcast
                   </a>
                 </MenuItem>
@@ -132,6 +137,7 @@ export default function Nav() {
             </DisclosureButton>
           ))}
         </div>
+        
       </DisclosurePanel>
     </Disclosure>
   )
