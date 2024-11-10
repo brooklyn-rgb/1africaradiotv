@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Bnr from "./components/Bnr";
 import About from "./pages/about/page";
-import Team from "./pages/team/page";
+import Legends from "./pages/legends/page";
 import About2 from "./pages/about2/page";
 import Video from "./pages/video/page";
 import { cookies } from 'next/headers'
@@ -19,15 +19,15 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className='bg-gray-900'>
-                <img src='/banner.webp'/>
-                </div>
-      <div className="py-10 container">
-        <div className="overflow-hidden">
+      <div className="py-10  bg-[url('/social/news.jpg')] bg-cover bg-no-repeat">
+        <div className="">
           <PromotionalBannerCarousel />
         </div>
       </div>
-      <Team />
+      <div className='bg-gray-900'>
+                <img src='/banner.webp'/>
+                </div>
+      <Legends />
     <About2 />
     <Time />
     <Video />
