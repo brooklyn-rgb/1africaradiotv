@@ -10,6 +10,7 @@ import Team2 from "./pages/team2/page";
 import Time from "./pages/time/page";
 import Time2 from "./pages/time2/page";
 import PromotionalBannerCarousel from "./pages/banner/promotional-banner-carousel";
+import Social from "./pages/social/page";
 
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
     <Team2 />
     <Time2 />
     <Bnr />
-    
+    <Social />    
     </div>
   );
 }

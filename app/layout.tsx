@@ -4,9 +4,9 @@ import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer"
 import Chat from "./pages/chat/page";
-import Hero from "./components/Hero";
 import Radio from "./pages/radio/page";
 import Card from "./pages/card/page";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />        
-        {children}
+        {children}        
         <Card />
         <Footer />
         <Chat />
